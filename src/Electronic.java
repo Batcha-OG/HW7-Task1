@@ -26,11 +26,6 @@ public class Electronic implements HouseholdItem{
         return v.electronicPacking(this);
     }
 
-    public String packingInstruction(){
-        return name + ": \n >should be covered with Polyethylene foam film and packed in a box with dimension: "
-                + height + "x" + length + "x" + width;
-    }
-
     public int getHeight() {
         return height;}
 
